@@ -58,6 +58,8 @@ while True:
             if matches[best_match_index]:
                 name = known_face_names[best_match_index]
                 print('I found the face ' + name )
+            else: 
+                print('Unknown face')
 
             face_names.append(name)
 
