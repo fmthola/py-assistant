@@ -7,7 +7,7 @@ video_capture = cv2.VideoCapture(0)
 
 
 # Load a sample picture and learn how to recognize it.
-thola_image = face_recognition.load_image_file("picture.png")
+thola_image = face_recognition.load_image_file("picture.jpg")
 thola_face_encoding = face_recognition.face_encodings(thola_image)[0]
 
 
@@ -57,6 +57,7 @@ while True:
             best_match_index = np.argmin(face_distances)
             if matches[best_match_index]:
                 name = known_face_names[best_match_index]
+                print('I found the face ' + name )
 
             face_names.append(name)
 
