@@ -1,0 +1,1 @@
+{"_default": {"1": {"server": "pi", "ip": "192.168.0.78"}, "2": {"server": "dns", "ip": "192.168.0.250"}, "3": {"server": "develop1", "ip": "192.168.0.98", "script": "/home/flamehaze/sync.sh"}, "4": {"server": "develop-main", "ip": "192.168.0.107", "script": "/home/flamehaze/script.sh"}}}
